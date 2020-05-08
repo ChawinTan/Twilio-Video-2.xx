@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+#remote-media {
+  background-color: #00BA51;
+  height: 200px;
+  margin: 1rem;
+}
+div#remote-media video {
+  border: 1px solid #272726;
+  margin: 3em 2em;
+  height: 70%;
+  max-width: 27% !important;
+  background-color: #272726;
+  background-repeat: no-repeat;
+}
+.video-control {
+  margin-top: 0.5rem;
+}
+.video-control .button {
+  border-radius: 0px;
+  border: none;
+  background: #00BA51;
+  width: 80px;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+.video-control .button:hover {
+  background: rgb(1, 158, 69);
+  cursor: pointer;
+}
+div#localMedia video {
+  height: 400px;
+  width: 400px;
+}
+.img {
+  margin-top: 0.5rem;
+}
+.upload-button {
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: #00BA51;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.4rem 1rem;
+  margin-top: 1rem;
+}
+.format {
+  margin-bottom: 1rem;
+}
